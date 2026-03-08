@@ -1,6 +1,6 @@
 # site
 
-(https://to-do-ten-lake.vercel.app/)
+https://to-do-ten-lake.vercel.app/
 
 # To-Do List
 
