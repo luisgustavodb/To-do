@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do list</title>
+    <link rel="stylesheet" href="./css/geral.css">
+    <link rel="stylesheet" href="./css/popup.css">
+</head>
+
+<body>
+    <article id="to-do_container">
+        <header id="to-do_header">
+            <h1 id="titulo_header">To-do Project</h1>
+        </header>
+        <section id="listas">
+            <p id="mensagem_inicial">Aqui esta muito vazio, adicione um novo item !</p>
+        </section>
+        <section id="btn_area">
+            <button id="criar_btn">Criar</button>
+            <button id="delete_todas_btn">Deletar Todas</button>
+        </section>
+    </article>
+
+    <article id="pop_up_criar">
+        <div id="pop_up_container">
+            <label for="input_criar" id="label_input_criar">Coloque o nome do item</label>
+            <input id="input_criar" type="text" autofocus>
+            <div id="buttons_container">
+                <button id="criar_btn_popup">Criar</button>
+                <button id="cancelar_btn_popup">Cancelar</button>
+            </div>
+        </div>
+    </article>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
